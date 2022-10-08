@@ -1,10 +1,9 @@
-
 x= input()
 firstcut = []
 secondcut = []
 thirdcut = []
 dab = []
-answer = x + '~'
+answer = '~'
 for i in range(1, len(x)-1):
     for j in range(i+1,len(x)):
          firstcut = x[:i]
@@ -17,5 +16,3 @@ for i in range(1, len(x)-1):
          answer = min(answer,dab)
 
 print(answer)
-
-         
