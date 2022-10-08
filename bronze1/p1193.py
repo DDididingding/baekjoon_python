@@ -12,7 +12,7 @@ while go:
 
 X = X - ((i-1)*(i))//2
 
-if i//2 == 0:
+if i%2 == 0:
     son = X
     mother = add - X
 else:
