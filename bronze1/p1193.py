@@ -19,10 +19,5 @@ else:
     mother = X
     son = add - X
 
-print(son)
-print(mother)
 print(son, '/', mother, sep='')
-print (add)
-print(i)
-print (X)
 
