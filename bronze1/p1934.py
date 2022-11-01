@@ -5,11 +5,13 @@ for i in range(N):
     a, b = input().split()
     a = int(a)
     b = int(b)
-    a = max(a,b)
-    b = min(a,b)
+    
+    if b > a :
+        a ,b = b, a
+
     nam = a % b
     gob = a*b
-
+    
     while(go) :
         if nam == 0 :
             answer = gob//b
