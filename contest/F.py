@@ -6,4 +6,3 @@ for i in range(len(q)):
     ans = ans + code[q[i]]
 
 print(ans)
-
